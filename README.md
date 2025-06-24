@@ -1,7 +1,7 @@
 # 🐢 Turtle Catcher ROS Project
 
 This is a ROS 2-based multi-package project where a master turtle catches randomly spawned turtles in the Turtlesim simulation. It demonstrates custom nodes, message/service interfaces, parameterization, and launch configuration.
-
+![Turtle_sim_project](https://github.com/user-attachments/assets/8e744519-0f98-4491-812c-95c454b80d3a)
 ---
 
 ## 📁 Packages Overview
@@ -54,7 +54,7 @@ Controls `turtle1` to catch other turtles.
   float64 x
   float64 y
 
-![Turtle_sim_project](https://github.com/user-attachments/assets/8e744519-0f98-4491-812c-95c454b80d3a)
+
 
 
   
