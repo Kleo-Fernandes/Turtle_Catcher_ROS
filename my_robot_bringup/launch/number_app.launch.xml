@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="my_py_pkg" exec="number_publisher" name="my_number_publisher" namespace="/test" >
+    <remap from ="number_pub" to="my_number" />
+    <param from = "$(find-pkg-share my_robot_bringup)/config/number_app.yaml" />
+
+  </node>
+  <node pkg="my_py_pkg" exec="robot_news_station" name="my_robott" />
+</launch>
